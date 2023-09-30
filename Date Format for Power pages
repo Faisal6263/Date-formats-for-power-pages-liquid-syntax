@@ -1,1 +1,11 @@
 https://learn.microsoft.com/en-us/power-pages/configure/liquid/liquid-filters#date-filters
+
+From this website you can check and keep it in your liquid syntax like this 
+
+this item.cim_renewal date is coming from a fetch like we do in plugin then use foreach record in result.entities like this used item.cim_renewaldate
+
+This is the variable -  assign membershipRenewalDate = item.cim_renewaldate | date: 'MMM dd, yyyy' 
+
+| Renewal Date:  membershipRenewalDate 
+
+Using that variable to display the Date on portal website 
